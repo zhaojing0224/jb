@@ -1,6 +1,6 @@
 package jb.basic;
 
-public class Car {
+public class Car extends Vehicle {
 
 	private String model; // 車種
 	private int maxSpeed; // 最高速度
@@ -30,4 +30,8 @@ public class Car {
 		this.maxSpeed = maxSpeed;
 	}
 
+	@Override
+	public void move() {
+		System.out.println("自動車は道路を走ります。");
+	}
 }
