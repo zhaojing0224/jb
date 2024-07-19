@@ -3,7 +3,7 @@ package jb.basic;
 /**
  * 再生可能」インターフェースのメソッド
  */
-interface Playable {
+public interface Playable {
 
 	void play();
 

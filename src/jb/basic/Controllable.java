@@ -1,6 +1,6 @@
 package jb.basic;
 
-interface Controllable {
+public interface Controllable {
 
 	void turnOn();
 

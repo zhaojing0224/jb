@@ -1,6 +1,6 @@
 package jb.basic;
 
-interface OnlineAuthenticatable {
+public interface OnlineAuthenticatable {
 
 	void authenticate();
 
